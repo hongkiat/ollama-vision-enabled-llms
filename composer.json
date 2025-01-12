@@ -1,0 +1,34 @@
+{
+    "name": "hongkiat/ollama-vision-enabled-llms",
+    "description": "Using Vision-enabled LLMs in Ollama",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hongkiat\\Ollama\\VisionEnabled\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thoriq Firdaus",
+            "email": "2067467+tfirdaus@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "erusev/parsedown": "^1.7",
+        "react/event-loop": "^1.5",
+        "react/http": "^1.11",
+        "react/socket": "^1.16",
+        "symfony/var-dumper": "^7.2"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "squizlabs/php_codesniffer": "^3.11"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
