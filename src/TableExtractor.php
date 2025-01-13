@@ -13,7 +13,8 @@ class TableExtractor implements Prompt
     public function fromImage(string $imagePath): string
     {
         $prompt = <<<EOT
-        Extract the table from this image and format it as a Markdown table:
+        Extract the table from this image and format it as a Markdown table
+        with the following requirements:
 
         1. Identify and include all column headers
         2. Preserve all data in each cell
